@@ -4,3 +4,16 @@
 //a = 2 b = 10 -> max = 10, min = 2
 //a = -9 b = -3 -> max = -3, min = -9
 
+int a, b;
+Console.WriteLine("Введите два числа : ");
+a = Convert.ToInt32(Console.ReadLine());
+b = Convert.ToInt32(Console.ReadLine());
+if (a > b)
+{
+ Console.WriteLine("{0} наибольшее число", a);
+}
+else
+{
+Console.WriteLine("{0} наибольшее число ", b);
+}
+Console.ReadLine();
